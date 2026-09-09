@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzón CUC Escucha</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Buzón CUC Escucha</h1>
+        <p>Tu opinión ayuda a construir una mejor Universidad de la Costa.</p>
+    </header>
+
+    <main>
+
+        <section class="introduccion">
+            <h2>Queremos escucharte</h2>
+
+            <p>
+                Comparte tus ideas, sugerencias o propuestas para mejorar
+                la experiencia de los estudiantes dentro de la institución.
+            </p>
+        </section>
+
+        <section class="formulario">
+
+            <h2>Registrar sugerencia</h2>
+
+            <form>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo">
+
+                <label for="categoria">Categoría:</label>
+
+                <select id="categoria" name="categoria">
+                    <option value="">Seleccione una categoría</option>
+                    <option value="bienestar">Bienestar</option>
+                    <option value="servicios">Servicios</option>
+                    <option value="clases">Clases</option>
+                    <option value="inclusion">Inclusión</option>
+                    <option value="espacios">Espacios</option>
+                    <option value="procesos">Procesos académicos</option>
+                </select>
+
+                <label for="sugerencia">Sugerencia:</label>
+
+                <textarea
+                    id="sugerencia"
+                    name="sugerencia"
+                    rows="6"
+                    placeholder="Escribe aquí tu sugerencia..."
+                ></textarea>
+
+                <button type="submit">Enviar sugerencia</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Universidad de la Costa - Buzón CUC Escucha</p>
+    </footer>
+
+</body>
+</html>
