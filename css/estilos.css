@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #d81d3c;
+    background-color: #bd1b36;
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -35,7 +35,7 @@ main {
 }
 
 h2 {
-    color: #d62c48;
+    color: #a7172f;
 }
 
 form {
@@ -53,23 +53,31 @@ input,
 select,
 textarea {
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #b6b1b1;
     border-radius: 6px;
     font-size: 16px;
 }
 
 button {
-    margin-top: 20px;
-    padding: 12px;
-    background-color: #d81d3c;
-    color: white;
+    margin-top: 8px;
+    padding: 13px;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
+    background-color: #c72323;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #b8112c;
+    background-color: #920808;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
 }
 
 footer {
